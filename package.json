@@ -1,0 +1,28 @@
+{
+  "name": "pynotify",
+  "version": "1.0.0",
+  "description": "A modern notification system with PyCourse style",
+  "main": "dist/pynotify.min.js",
+  "module": "src/pynotify.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack --watch --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notification",
+    "alert",
+    "toast",
+    "modal",
+    "pynotify"
+  ],
+  "author": "Meisam Shabany",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.11.0",
+    "style-loader": "^3.3.4",
+    "terser-webpack-plugin": "^5.3.14",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^5.1.4"
+  }
+}

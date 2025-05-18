@@ -1,2 +1,2 @@
 # pycoursenotify
-modern notification Create For PyCourse WebSite 
+A modern notification system with PyCourse style
