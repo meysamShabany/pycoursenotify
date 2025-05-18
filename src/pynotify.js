@@ -797,3 +797,6 @@ class PyNotify {
 }
 export default PyNotify;
 
+if (typeof window !== 'undefined') {
+  window.PyNotify = PyNotify;
+}
