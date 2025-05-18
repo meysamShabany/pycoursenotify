@@ -1,6 +1,7 @@
 # PyNotify ✨
 
-![PyNotify Demo](https://raw.githubusercontent.com/your-username/pynotify/main/demo/screenshot.png)
+![Untitled](https://github.com/user-attachments/assets/2d94f8cb-a2fd-4493-af35-edffc1a8a383)
+
 
 **A modern, beautiful notification system with PyCourse style** - Fully customizable, responsive and lightweight for your web projects.
 
