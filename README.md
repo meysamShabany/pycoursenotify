@@ -61,22 +61,39 @@ pynotify.confirm({
 
 Available Notification Types:
 Method	Description
-alert()	Basic message with OK button
-confirm()	Confirm/Cancel dialog
-toast()	Temporary auto-dismiss message
-prompt()	Get user input
-advanced()	Customizable message with buttons
-progress()	Progress indicator
-multiSelect()	Multi-choice selection
-timed()	Timed notification
-snackbar()	Bottom quick message
-fullscreen()	Fullscreen modal
+alert()  ==>	Basic message with OK button
+
+confirm() ==>	Confirm/Cancel dialog
+
+toast()  ==>	Temporary auto-dismiss message
+
+prompt()  ==>	Get user input
+
+advanced()  ==>	Customizable message with buttons
+
+progress()  ==>	Progress indicator
+
+multiSelect()  ==>	Multi-choice selection
+
+timed()  ==>	Timed notification
+
+snackbar()  ==>	Bottom quick message
+
+fullscreen()  ==>	Fullscreen modal
+
 Common Options:
-Parameter	Type	Default	Description
-title	string	-	Notification title
-message	string	-	Notification message
-duration	number	3000	Display duration (ms)
+
+Parameter ----	Type ---	Default	Description
+
+title ---	string	--- 	Notification title
+
+message ---	string	--- 	Notification message
+
+duration --- number	3000 ---	Display duration (ms)
+
 onClose	function	-	Callback when notification closes
+
+
 🎨 Customization
 You can customize styles via CSS:
 
