@@ -18,3 +18,12 @@
 - 🔌 بدون وابستگی (Dependency-free)
 - 🛠️ قابل تنظیم و توسعه‌پذیر
 
+## Install
+از طریق NPM:
+'''bash
+npm install pynotify
+
+'''javascript
+import PyNotify from 'pynotify';
+const pynotify = new PyNotify();
+
