@@ -123,10 +123,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 📬 Contact
 For questions or suggestions:
 
-Email: your-email@example.com
+Email: meisam.shabany@gmail.com
 
-Twitter: @your-handle
+WebSite: www.pycourse.ir
 
-GitHub: your-username
+GitHub: meysamShabany
 
 ✨ Thank you for using PyNotify! ✨
