@@ -30,6 +30,8 @@ import PyNotify from 'pynotify';
 
 const pynotify = new PyNotify();
 
+
+
 ###🚀 Quick Start
 
 #1. Basic Alert
