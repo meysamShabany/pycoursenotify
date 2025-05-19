@@ -26,16 +26,13 @@
 ```html
 <script src="https://cdn.jsdelivr.net/npm/pynotify@latest/dist/pynotify.min.js"></script>
 
-Via NPM:
-npm install pynotify
-
 import PyNotify from 'pynotify';
 
 const pynotify = new PyNotify();
 
-🚀 Quick Start
+##🚀 Quick Start
 
-1. Basic Alert
+#1. Basic Alert
 
 pynotify.alert({
   title: "Success",
@@ -45,7 +42,7 @@ pynotify.alert({
   }
 });
 
-2. Confirmation Dialog
+#2. Confirmation Dialog
 
 pynotify.confirm({
   title: "Delete Item",
@@ -58,29 +55,29 @@ pynotify.confirm({
   }
 });
 
-📚 Full Documentation
+##📚 Full Documentation
 
 Available Notification Types:
 Method	Description
-alert()  ==>	Basic message with OK button
+#alert()  ==>	Basic message with OK button
 
-confirm() ==>	Confirm/Cancel dialog
+#confirm() ==>	Confirm/Cancel dialog
 
-toast()  ==>	Temporary auto-dismiss message
+#toast()  ==>	Temporary auto-dismiss message
 
-prompt()  ==>	Get user input
+#prompt()  ==>	Get user input
 
-advanced()  ==>	Customizable message with buttons
+#advanced()  ==>	Customizable message with buttons
 
-progress()  ==>	Progress indicator
+#progress()  ==>	Progress indicator
 
-multiSelect()  ==>	Multi-choice selection
+#multiSelect()  ==>	Multi-choice selection
 
-timed()  ==>	Timed notification
+#timed()  ==>	Timed notification
 
-snackbar()  ==>	Bottom quick message
+#snackbar()  ==>	Bottom quick message
 
-fullscreen()  ==>	Fullscreen modal
+#fullscreen()  ==>	Fullscreen modal
 
 Common Options:
 
