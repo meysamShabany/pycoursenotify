@@ -24,7 +24,7 @@
 ### Via CDN:
 
 
-<script src="https://cdn.jsdelivr.net/npm/pynotify@latest/dist/pynotify.min.js"></script>
+<script src="https://github.com/meysamShabany/pycoursenotify/blob/master/src/pynotify.js"></script>
 
 import PyNotify from 'pynotify';
 
