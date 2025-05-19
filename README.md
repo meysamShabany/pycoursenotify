@@ -33,6 +33,7 @@ const pynotify = new PyNotify();
 
 🚀 Quick Start
 
+
 1. Basic Alert
 
 pynotify.alert({
