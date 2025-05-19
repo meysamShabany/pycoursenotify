@@ -23,7 +23,7 @@
 
 ### Via CDN:
 
-```html
+
 <script src="https://cdn.jsdelivr.net/npm/pynotify@latest/dist/pynotify.min.js"></script>
 
 import PyNotify from 'pynotify';
