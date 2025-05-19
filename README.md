@@ -7,7 +7,7 @@
 
 [![npm version](https://badge.fury.io/js/pynotify.svg)](https://badge.fury.io/js/pynotify)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/your-username/pynotify)](https://github.com/your-username/pynotify/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/meysamShabany/pynotify)](https://github.com/meysamShabany/pynotify/stargazers)
 
 ## 🌟 Key Features
 
