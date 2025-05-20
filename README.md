@@ -20,7 +20,8 @@
 - 🛠️ Customizable and extensible
 
 ## 📦 Installation
-
+test:
+https://meysamshabany.github.io/pycoursenotify/
 ### Via CDN:
 
 
