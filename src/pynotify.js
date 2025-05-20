@@ -795,7 +795,7 @@ class PyNotify {
     });
   }
 }
-export default PyNotify;
+export PyNotify;
 
 if (typeof window !== 'undefined') {
   window.PyNotify = PyNotify;
