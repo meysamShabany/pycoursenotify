@@ -1,4 +1,4 @@
-class PyNotify {
+class PyNotif {
   constructor() {
     this.initStyles();
     this.toastQueue = [];
@@ -795,8 +795,4 @@ class PyNotify {
     });
   }
 }
-export PyNotify;
-
-if (typeof window !== 'undefined') {
-  window.PyNotify = PyNotify;
-}
+let pynotif = new PyNotif();
