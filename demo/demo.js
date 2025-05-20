@@ -1,8 +1,8 @@
 
 if (typeof pynotify === 'undefined') {
-  console.error('PyNotify is not loaded!');
+  alert('PyNotify is not loaded!');
 } else {
-  console.log('PyNotify is ready:', pynotify);
+  alert('PyNotify is ready:', pynotify);
 }
 
 function showAlert() {
