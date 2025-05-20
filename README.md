@@ -1,12 +1,29 @@
-# PyNotif - Complete Documentation
+# PyNotify ✨
 
-## Introduction
+![Untitled](https://github.com/user-attachments/assets/2d94f8cb-a2fd-4493-af35-edffc1a8a383)
 
-**pynotif** is a modern, customizable notification system designed for web applications. This documentation provides detailed information about all available methods and their usage.
 
----
+**A modern, beautiful notification system with PyCourse style** - Fully customizable, responsive and lightweight for your web projects.
 
-## CDN
+[![npm version](https://badge.fury.io/js/pynotify.svg)](https://badge.fury.io/js/pynotify)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/meysamShabany/pynotify)](https://github.com/meysamShabany/pynotify/stargazers)
+
+## 🌟 Key Features
+
+- 🎨 Modern design with PyCourse theme
+- 📱 Fully responsive
+- 🚀 Lightweight (~10KB minified)
+- 🔧 10 different notification types
+- 💫 Smooth animations
+- 🔌 Dependency-free
+- 🛠️ Customizable and extensible
+
+## 📦 Installation
+
+### Via CDN:
+
+
 <script src="https://github.com/meysamShabany/pycoursenotify/blob/master/src/pynotify.js"></script>
 
 ## Test
