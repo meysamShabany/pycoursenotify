@@ -41,6 +41,7 @@ class PyNotif {
                 box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
                 transform: translateY(20px);
                 transition: transform 0.3s ease;
+              
             }
 
             .pynotify-overlay.active .pynotify-container {
@@ -455,19 +456,19 @@ class PyNotif {
     overlay.className = "pynotify-overlay";
 
     overlay.innerHTML = `
-            <div class="pynotify-container">
+            <div class="pynotify-container" style="display: flex!important;flex-direction: column!important;align-items: center!important;">
                 <div class="pynotify-icon">?</div>
                 <h3 class="pynotify-title">${title}</h3>
                 <div class="pynotify-message">${message}</div>
                 <input type="text" class="pynotify-input" value="${defaultValue}" style="
-                    width: 100%;
+                    width: 98%;
                     padding: 0.75rem;
-                    margin-bottom: 1.5rem;
                     background: rgba(100, 255, 218, 0.1);
                     border: 1px solid rgba(100, 255, 218, 0.3);
                     border-radius: 5px;
                     color: #ccd6f6;
                     font-size: 1rem;
+                    margin-bottom: 1.5rem;
                 ">
                 <div class="pynotify-buttons">
                     <button class="pynotify-btn pynotify-btn-cancel">Cancel</button>
