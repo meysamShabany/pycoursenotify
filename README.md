@@ -1,4 +1,4 @@
-# PyNotify ✨
+# PyNotif ✨
 
 ![Untitled](https://github.com/user-attachments/assets/2d94f8cb-a2fd-4493-af35-edffc1a8a383)
 
