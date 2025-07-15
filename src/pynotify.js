@@ -365,7 +365,7 @@ class PyNotif {
     });
   }
 
-  confirm({ title, message, onConfirm, onCancel }) {
+  confirm({title, message, confirmText="Cancel", cancelText="Confirm", onConfirm, onCancel}) {
     const overlay = document.createElement("div");
     overlay.className = "pynotify-overlay";
 
@@ -375,8 +375,8 @@ class PyNotif {
                 <h3 class="pynotify-title">${title}</h3>
                 <div class="pynotify-message">${message}</div>
                 <div class="pynotify-buttons">
-                    <button class="pynotify-btn pynotify-btn-cancel">Cancel</button>
-                    <button class="pynotify-btn pynotify-btn-ok">Confirm</button>
+                    <button class="pynotify-btn pynotify-btn-cancel">${cancelText}</button>
+                    <button class="pynotify-btn pynotify-btn-ok">${confirmText}</button>
                 </div>
             </div>
         `;
